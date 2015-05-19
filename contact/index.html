@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="hjb2722404"/>
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="../public/css/responsive-nav.css"/>
+    <link rel="stylesheet" href="../public/css/myResponNav.css"/>
+    <link rel="stylesheet" href="../public/css/mxzs.css"/>
+    <title>明星装饰</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2" >
+                    <div class="row">
+                        <div class="logo col-md-3 col-sm-3 "><img src="../public/img/logo.png" alt=""/></div>
+                        <div class="search col-md-6 col-sm-6">
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="button">搜索</button>
+                                </span>
+                                    </div>
+                                </form>
+                        </div>
+                        <div class="servicePhone col-md-3 col-sm-3">
+                            <div class="phoneIcon">
+                                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            </div>
+                            <div class="phoneNumber">
+                                <number>0931-1234567</number><br />
+                                <number>1399999999</number>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="navbox">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="nav">
+                            <nav class="nav-collapse">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="cur">首页</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">效果图</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">装修攻略</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">设计与报价</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">联系我们</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="contact">
+                        <div class="col-md-4">
+                            <br/>
+                            <h3>联系我们 | CONTACT US</h3>
+                            <h5>我们拥有专业的团队，耐心的工作人员聆听您的需求，欢迎随时致电我们查询。</h5>
+                            <br/>
+                            <br/>
+                            <h5>公司地址：兰州市城关区东岗西路226号</h5>
+                            <h5>电话：0931-2222222</h5>
+                            <h5>传真：0931-2222222</h5>
+                            <h5>E-mail:mszsgc@163.com</h5>
+                        </div>
+                        <div class="col-md-8">
+                            <form action="/mingxingzhuangshi/plus/diy.php" enctype="multipart/form-data" method="post">
+                                <input type="hidden" name="action" value="post" />
+                                <input type="hidden" name="diyid" value="1" />
+                                <input type="hidden" name="do" value="2" />
+                                <br/>
+                                <br/>
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="name">姓名：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="name" id="name"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="sex">性别：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="radio" class="" name="sex" id="sexMan" value='男' checked/>男 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" class="" name="sex" id="sexWoman" value='女'/>女
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="phone">联系电话：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="tel" class="form-control" name="phone" id="phone"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="homeType">物业性质：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <select class="form-control" id="homeType" name='hometype'>
+                                            <option value="">==请选择==</option>
+                                            <option value='会所'>会所</option>
+                                            <option value='别墅'>别墅</option>
+                                            <option value='酒店'>酒店</option>
+                                            <option value='写字楼'>写字楼</option>
+                                            <option value='住宅'>住宅</option>
+                                            <option value='商业'>商业</option>
+                                            <option value='其它'>其它</option>
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="projectType">工程性质：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <select class="form-control" id="projectType" name="projecttype">
+                                            <option value="">==请选择==</option>
+                                            <option value='翻新工程'>翻新工程</option>
+                                            <option value='新工程'>新工程</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="homeArea">物业地区：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="homearea" id="homeArea"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="homeSize">物业面积：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="homesize" id="homeSize"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="projectMoney">工程预算：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="projectprice" id="projectMoney"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="other">其他内容：</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <textarea name="other" id="other" cols="30" rows="4" class="form-control"></textarea>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                        <label for="other">验证码：</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" name="yzm" id="yzm"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        22222
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <input type="hidden" name="dede_fields" value="name,text;sex,radio;phone,text;hometype,select;projecttype,select;homearea,text;homesize,text;projectprice,text;other,multitext" />
+                                <input type="hidden" name="dede_fieldshash" value="2942d63ffa009f3a2cbde817d969e921" />
+                                <div class="form-group">
+                                    <div class="col-md-4 col-md-offset-4">
+                                        <input type="submit" class="btn form-control btn-primary"/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerUp">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                         <div class="col-md-3 col-sm-3">
+                             <img src="../public/img/servicers.jpg" alt=""/>
+                         </div>
+                        <div class="col-md-2 col-sm-2 contactTit ">
+                            <h5>联系我们</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <img src="../public/img/erweima.jpg" alt=""/>
+                        </div>
+                        <div class="col-md-5 col-sm-4 contactInfo">
+                            <h6>电话：0931-1234567&nbsp;&nbsp;&nbsp;&nbsp;13999999999</h6>
+                            <h6>邮箱：mszsgc@163.com</h6>
+                            <h6>地址：甘肃省兰州市城关区渭源路226号</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footerBtm">
+                <div class="col-md-8 col-md-offset-2">
+                    <h6>© 1997-2014 网易公司版权所有 About NetEase|公司简介|联系方法|招聘信息|客户服务|隐私政策|广告服务|网站地图|历史回顾|意见反馈|不良信息举报</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-bottom">
+        <form action="">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="button">搜索</button>
+                                </span>
+            </div>
+        </form>
+        <div class="callphone">
+            <h4>拨打电话：<a href="tel://13993666666">13993666666</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel://0931-1234567">0931-1234567</a></h4>
+        </div>
+    </div>
+    <script src="../public/js/jquery.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../public/js/responsive-nav.min.js"></script>
+    <script>
+        var navigation = responsiveNav(".nav-collapse");
+    </script>
+    <script>
+        $(function(){
+            var oLinks = document.getElementById("tabs").getElementsByTagName("a");
+            var oCons = document.getElementById("tabCons").getElementsByTagName("section");
+            for(var i = 0; i<oLinks.length; i++){
+                oLinks[i].index = i;
+                oLinks[i].onclick = function () {
+                    for(var j =0; j<oLinks.length; j++){
+                        oLinks[j].className="";
+                        oCons[j].style.display = "none";
+                    }
+                    this.className="cur";
+                    oCons[this.index].style.display ="block";
+                }
+
+            }
+
+
+        });
+    </script>
+</body>
+</html>

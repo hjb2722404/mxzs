@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*通用样式*/
+*{ margin:0; padding:0;}
+ul { list-style:none;}
+.clear { width:100%; height:0px; clear:both;}
+
+#login_body{ background:#474E56; height:100%; margin:0}
+#main{width: 100%;height: 100%; background:url(img/admin_bg.jpg) no-repeat center center;position: absolute;bottom: 0px;top: 0px;}
+#logo{ position:absolute; left:50%; margin-left:-223px; top:50%; margin-top:-150px}
+#login_panel{ position:absolute; left:50%; margin-left:-255px; top:50%; margin-top:35px}
+.input_text{ width:206px; height:42px; background-image:url(admin_login.png); background-repeat: no-repeat; background-position: -8px -13px; background-color:transparent; border:0px; text-indent:8px; color:#888; margin-right:13px; float:left; line-height:42px;}
+#admin_name {background-image:url(img/admin_login.png); background-position:-8px -14px;}
+#admin_pwd {background-image:url(img/admin_login.png); background-position:-8px -14px; display:none;}
+#admin_pwdpro {background-image:url(img/admin_login.png); background-position:-8px -14px;}
+#login_submit{ width:102px; height:42px; background-image:url(img/admin_login.png); background-position:-8px -64px; float:left; cursor:pointer}
+#login_submit:hover{ background-position:-8px -114px;}
+
+#container { width:100%; height:100%;}
+#header { border-bottom:2px #333 solid;}
+#mainlogo { width:447px; height:130px; float:left; background:url(img/admin_logo.png);}
+#welcome { padding-top:100px;}
+#welcome p{ font-weight:bold; color:#00F;}
+
+#sysnav { float:right; padding-bottom:10px;}
+#sysnav li { float:left; margin-right:20px;}
+#sysnav a{ color:blue; text-decoration:none; font-size:16px;}
+#sysnav a:hover { color:red;}
+
+.mainleft { width:15%; float:left; height:700px; background:#ccc;}
+.mainright { width:85%; height:700px; float:left;}
+
+.mainleft ul{ width:100%;}
+.mainleft ul li { width:100%; height:40px; border-bottom:1px #333 solid;}
+.mainleft ul li a{ widows:100%; height:40px; display:block; background:#CCC; color:#333; font-size:14px; line-height:40px; text-align:center; letter-spacing:3px; text-decoration:none;}
+.mainleft ul li a:hover { background:#333; color:#fff;}
+
+#footer { height:70px; background:#333; padding-top:30px;}
+#footer h4,h5{ color:#fff;}
+
+
+
+/*管理内容页样式*/
+
+.admin_content { width:85%; margin-left:auto; margin-right:auto; padding-top:30px;}
+.admin_title { height:50px; line-height:50px;}
+.form { width:100%; float:left;}
+.form label{ width:300px; color:blue;}
+.form input { height:30px; margin-bottom:10px; width:500px;}
+.form button { margin-top:20px; margin-bottom:20px; width:200px; height:40px;}
+.form textarea { margin-left:100px; margin-bottom:20px; width:450px;}
+#imgdiv { margin-top:10px; margin-bottom:10px; display:none;}
+
+#htmlcontainer { width:700px;}

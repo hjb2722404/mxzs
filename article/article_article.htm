@@ -1,0 +1,21 @@
+{dede:include filename = "head.htm" /}
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="price">
+                        <div class="col-md-12">
+                            <h4>{dede:field.title/} <span><small>时间:</small>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}<small>来源:</small>{dede:field.source/} <small>作者:</small>{dede:field.writer/}</span></h4>
+                            <div class="priceForm">
+                                {dede:field.body/}
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+{dede:include filename = "footer.htm" /}
