@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="hjb2722404"/>
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="../public/css/responsive-nav.css"/>
+    <link rel="stylesheet" href="../public/css/myResponNav.css"/>
+    <link rel="stylesheet" href="../public/css/mxzs.css"/>
+    <title>明星装饰</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2" >
+                    <div class="row">
+                        <div class="logo col-md-3 col-sm-3 "><img src="../public/img/logo.png" alt=""/></div>
+                        <div class="search col-md-6 col-sm-6">
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="button">搜索</button>
+                                </span>
+                                    </div>
+                                </form>
+                        </div>
+                        <div class="servicePhone col-md-3 col-sm-3">
+                            <div class="phoneIcon">
+                                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            </div>
+                            <div class="phoneNumber">
+                                <number>0931-1234567</number><br />
+                                <number>1399999999</number>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="navbox">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="nav">
+                            <nav class="nav-collapse">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="cur">首页</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">效果图</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">装修攻略</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">设计与报价</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">联系我们</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="price">
+                        <div class="col-md-10">
+                            <h4>房屋基础信息 <span>今天已经有3149位业主免费成功获取在线报价</span></h4>
+                            <div class="priceForm">
+                                <form action="">
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="type">装修种类:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="radio" id="type1" name="type" />新房装修
+                                            <input type="radio" id="type2" name="type"/>二手房装修
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="size">房屋面积:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="size" name="size" class="form-control" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            平方米
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="state">装修状态:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <select name="state" id="state" class="form-control">
+
+                                                <option value="0">请选择装修状态</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="address">房屋地址:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="text" id="address" name="address" class="form-control"/>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+    
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="homeType">房屋户型:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <select name=" homeType" id="homeType">
+                                                <option value="">普通住宅</option>
+                                            </select>
+                                            <select name="shi" id="shi">
+                                                <option value="">1</option>
+                                            </select>室
+                                            <select name="ting" id="ting">
+                                                <option value="">1</option>
+                                            </select>厅
+                                            <select name="chu" id="chu">
+                                                <option value="">1</option>
+                                            </select>厨
+                                            <select name="wei" id="wei">
+                                                <option value="">1</option>
+                                            </select>卫
+                                            <select name="yangTai" id="yangTai">
+                                                <option value="">1</option>
+                                            </select>阳台
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="level">装修档次:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="radio" id="level1" name="level" />简装
+                                            <input type="radio" id="level2" name="level"/>精装
+                                            <input type="radio" id="level3" name="level"/>豪华
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-2">
+                                            <label for="style">装修风格:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="radio" id="styleJy" name="style" />现在简约
+                                            <input type="radio" id="styleTy" name="style"/>田园
+                                            <input type="radio" id="styleDzh" name="style"/>地中海
+                                            <input type="radio" id="styleOs" name="style"/>欧式
+                                            <input type="radio" id="styleMs" name="style"/>美式
+                                            <input type="radio" id="styleZs" name="style"/>中式古典
+                                            <input type="radio" id="styleDny" name="style"/>东南亚
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="../public/img/price.jpg" alt=""/>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row footerUp">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                         <div class="col-md-3 col-sm-3">
+                             <img src="../public/img/servicers.jpg" alt=""/>
+                         </div>
+                        <div class="col-md-2 col-sm-2 contactTit ">
+                            <h5>联系我们</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <img src="../public/img/erweima.jpg" alt=""/>
+                        </div>
+                        <div class="col-md-5 col-sm-4 contactInfo">
+                            <h6>电话：0931-1234567&nbsp;&nbsp;&nbsp;&nbsp;13999999999</h6>
+                            <h6>邮箱：mszsgc@163.com</h6>
+                            <h6>地址：甘肃省兰州市城关区渭源路226号</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footerBtm">
+                <div class="col-md-8 col-md-offset-2">
+                    <h6>© 1997-2014 网易公司版权所有 About NetEase|公司简介|联系方法|招聘信息|客户服务|隐私政策|广告服务|网站地图|历史回顾|意见反馈|不良信息举报</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-bottom">
+        <form action="">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="button">搜索</button>
+                                </span>
+            </div>
+        </form>
+        <div class="callphone">
+            <h4>拨打电话：<a href="tel://13993666666">13993666666</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel://0931-1234567">0931-1234567</a></h4>
+        </div>
+    </div>
+    <script src="../public/js/jquery.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../public/js/responsive-nav.min.js"></script>
+    <script type="text/javascript" src="../public/js/common.js"></script>
+    <script>
+        var navigation = responsiveNav(".nav-collapse");
+    </script>
+
+</body>
+</html>

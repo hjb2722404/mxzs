@@ -1,0 +1,107 @@
+.userMg { border: 1px solid #cccccc; height:307px;  }
+.userMg h6{ font-size: 11px;}
+.banner img { width: 100%; height: 307px;}
+.tabs{ width: 100%; margin-top: 5px;}
+.tabs ul { width: 100%; list-style-type: none;}
+.tabs ul li { width: 48%; display: inline-block; margin: 0; padding: 0;}
+.tabs ul li a {border-bottom: 3px solid #cccccc; width: 100%; height: 100%; display: block; text-align: center; min-height: 40px; line-height: 40px; text-decoration: none; font-family: "微软雅黑"; color: #a94442}
+.tabs ul li a.cur { border-bottom: 3px solid #f26123;}
+.tabCons ul { list-style-type: none;}
+.regForm input{ margin-bottom: 10px;}
+.loginForm input { margin-top: 10px;}
+.loginForm a { margin-top: 10px;}
+.processIndexNav { width: 100%;}
+.processIndexNav h2 span { font-size: 12px; color: #999;}
+.processIndexNav h2 a{ font-size: 14px; border: 1px solid #f25618; padding: 5px; float: right; color: #f25618;}
+.processIndexNav ul { width: 100%; list-style-type: none;}
+.processIndexNav ul li {min-width:32%;min-height: 90px; display:inline-block;margin-bottom: 10px;}
+.processIndexNav ul li a { width: 100%; height:90px; border: 1px solid #cccccc; display: block; text-align: center; line-height: 45px; text-decoration: none; color: #999999; }
+.processIndexNav ul li a:hover {color:#f25618 ;}
+.xgtIndexNav h2 span {font-size: 12px; color: #999;}
+.xgtIndexNav img {}
+.xgtIndexNavPic { min-height: 200px; max-height: 300px;}
+.leftPic{ width: 30%; height: 240px; float: left; overflow: hidden;}
+.leftPic img{  }
+.midPic { width: 48%; float: left; margin-left: 1%; min-height: 240px;}
+.midPic img { max-height: 110px; width: 100%;}
+.midPic01{ width:98%; min-height: 110px; float: left; margin-bottom:10px;}
+.midPic02{ width: 48%;min-height: 110px;float: left; margin-right: 1%;}
+.midPic03{ width: 48%; min-height: 110px; float: left;}
+.rightPic{ width: 20%; min-height: 240px;float: right}
+.rightPic img {  height: 240px;}
+.areaNav { width: 100%;}
+.areaNav ul{ width: 100%; list-style-type: none; text-align: center;}
+.areaNav ul li { display: inline-block; width: 24%; text-align: center; }
+.areaNav ul li a{ text-decoration: none; color: #333;}
+.areaNav ul li a:hover { color: #a94442;}
+
+.fastArticleNav img{ width: 100%; }
+.fastArticleNav ul { width: 100%; list-style-type: none;}
+.fastArticleNav ul li { display: inline-block; min-width: 23%; min-height: 60px;}
+.fastArticleNav ul li a{ width: 100%;  text-align: center; display: block; text-decoration: none; color: #999999;}
+
+.fastLinks img{ width: 100%; }
+.ArticleLeftNav { border: 1px solid #cccccc; border-top: none;}
+.ArticleLeftNav h3{ background: #ccc; padding: 10px;}
+.ArticleLeftNav ul { list-style-type: none;}
+.tabCons ul li{ width: 100%; min-height: 60px; height: 100%; float: left;}
+.tabCons ul li hr { width: 100%; float: left;}
+.articleListLitpic { width: 20%; float: left;}
+.articleListLitpic img {width: 100%;}
+.articleListInfo { width: 78%; float: right; height: 100%;}
+.articleListInfo h3 a{ text-decoration: none; color: #333333;}
+.articleListInfo p { color: #999999; text-indent: 2em;}
+.articleListInfo h6 span { float: right;}
+
+ul.fanBefore { width: 100%; height: 180px; background: #fefff4; border: 1px #cccccc solid; }
+ul.fanIng { width: 100%; height: 180px; background: #f9fffc; border: 1px #cccccc solid; }
+ul.fanAfter { width: 100%; height: 180px; background: #f5fcff; border: 1px #cccccc solid;}
+
+ul.fanBefore li { width: 23%; height: 180px;}
+ul.fanIng li { width: 23%; height: 90px;}
+ul.fanAfter li { width:48%; height: 180px;}
+
+ul.fanBefore li a{ height: 180px; line-height: 180px; margin-top: 13px;}
+ul.fanIng li a{ height: 90px; line-height:90px; margin-top: 10px;}
+ul.fanAfter li a{ height: 180px; line-height: 180px; margin-top: 13px;}
+
+.pictureNav ul { width: 100%; min-height: 40px; line-height: 40px; list-style-type: none; border: 1px solid #cccccc;}
+.pictureNav ul li { display: inline-block; width: auto; min-width: 60px; text-align: center;}
+.pictureNav ul li a{ text-decoration: none; color: #666666;}
+.pictureNav ul li:first-child { background: #cccccc; }
+
+#pictures .tabs ul li { width: 100px;}
+#pictures .tabCons img {width: 100%; margin-bottom: 10px;}
+@media screen and ( max-width: 640px){
+    .areaNav ul li { width: 45%; }
+
+}
+@media screen and (max-width:768px) and (min-width:640px){
+    .areaNav ul li { width: 23%; }
+
+}
+.icon001{ background: url("../img/alisticon/001.png") no-repeat 50% 50px ; background-size: 25px;}
+.icon002{ background: url("../img/alisticon/002.png") no-repeat 50% 50px ; background-size: 25px}
+.icon003{ background: url("../img/alisticon/003.png") no-repeat 50% 50px ; background-size: 25px}
+.icon004{ background: url("../img/alisticon/004.png") no-repeat 50% 50px ; background-size: 25px}
+
+.icon011{ background: url("../img/alisticon/011.png") no-repeat 50% 0px ; background-size: 25px}
+.icon012{ background: url("../img/alisticon/012.png") no-repeat 50% 0px ; background-size: 25px}
+.icon013{ background: url("../img/alisticon/013.png") no-repeat 50% 0px ; background-size: 25px}
+.icon014{ background: url("../img/alisticon/014.png") no-repeat 50% 0px ; background-size: 25px}
+.icon015{ background: url("../img/alisticon/015.png") no-repeat 50% 0px ; background-size: 25px}
+.icon016{ background: url("../img/alisticon/016.png") no-repeat 50% 0px ; background-size: 25px}
+.icon017{ background: url("../img/alisticon/017.png") no-repeat 50% 0px ; background-size: 25px}
+.icon018{ background: url("../img/alisticon/018.png") no-repeat 50% 0px ; background-size: 25px}
+
+.icon021{ background: url("../img/alisticon/021.png") no-repeat 50% 50px ; background-size: 25px}
+.icon022{ background: url("../img/alisticon/022.png") no-repeat 50% 50px ; background-size: 25px}
+
+.fastLinks { margin-top: 20px;}
+.articleList { margin-top: 20px; border-top: 1px solid #cccccc;}
+
+dd{ margin-left: 20px; font-size: 12px; line-height: 20px}
+.ArticleLeftNav a { text-decoration: none;}
+
+.contact { width:90%; border: 10px solid #ccc; height: auto; }
+.nopadding { padding: 0;}

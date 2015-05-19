@@ -1,0 +1,72 @@
+body { height: 100%; width: 100%;}
+div,ul ,li { margin: 0; padding: 0;}
+nav { z-index: 99999999999;}
+.nav-collapse ul { width:100%;list-style-type: none; background: #1e9f3d;}
+.nav-collapse ul li { max-height: 40px; line-height: 40px; display: inline-block; background-color: #1e9f3d;}
+.nav-collapse ul li a{ width: 100%; height: 100%; text-decoration: none; color: #cccccc; display: block; text-align: center; font-weight: bold;}
+.nav-collapse ul li a:hover { background: #cccccc; color: #1e9f3d;}
+.nav-collapse ul li a.cur { background: #cccccc; color:#1a9f3d;}
+.fixed-bottom { height: 100px; position: fixed; bottom: 0px; width: 100%; opacity: 0.5; filter: alpha(opacity=50); background: #333333; display: none; }
+.callphone { margin-bottom: 20px; color: #ffffff; padding-left: 20px;}
+.callphone a { color: #ffff00;}
+.footerUp { background: #2d8f44; color: #ffffff; text-align: center;; line-height: 125px; z-index: 9999;}
+.footerBtm { background: #333333; color: #cccccc;  z-index: 9999; text-align: center; }
+
+.vCenter { position: relative; top:50%;}
+
+.clearfix {clear: both; height: 0; width: 100%}
+
+.contactTit h5 { line-height: 125px;}
+.contactTit h5::after{
+    background-color: #ffffff;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 100%;
+    height: 50%;
+    top: 25%;
+    position: absolute;
+    width: 1px;
+}
+.contactInfo::before {
+    background-color: #ffffff;
+    bottom: 0;
+    content: "";
+    display: block;
+    right: 100%;
+    height: 50%;
+    top: 25%;
+    position: absolute;
+    width: 1px;
+}
+.contactInfo h6 { line-height: 30px;}
+@media screen and (min-width: 40em) {
+
+    .nav-collapse ul li { width: 18%; }
+}
+.navbox { background: #1e9f3d; height: 40px;}
+.search { margin-top: 50px;}
+.servicePhone{ margin-top: 60px; height: 60px; line-height: 60px;}
+.phoneIcon { width: 10%; float: left; height: 30px; line-height: 30px; text-align: center;}
+.phoneNumber { width: 80%; float: left; margin-left: 10%; margin-top: -10%; line-height: 30px;}
+
+
+@media screen and (max-width:768px) and (min-width:640px){
+     .search{ float: right;}
+    .servicePhone {float: left;}
+    .logo{ float: left; width: 220px;}
+    .contactInfo h6 {line-height: 20px;}
+    .contactTit h5 { line-height: 50px;}
+}
+
+@media screen and (max-width: 640px){
+    .servicePhone { display: none;}
+    .search { display: none;}
+    .fixed-bottom {display: block;}
+    .contactInfo h6 {line-height: 20px;}
+    .contactTit h5 { line-height: 50px;}
+    .footerBtm { margin-bottom: 100px;}
+}
+
+header { margin-bottom: 15px;}
+section {margin-bottom: 15px;}
