@@ -35,7 +35,7 @@
 		switch($type){
 	
 		case 0 :
-			
+
 			$tabname="mx_article";
 
 			break;
