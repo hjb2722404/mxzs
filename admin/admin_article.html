@@ -22,10 +22,10 @@
             $.each(data,function(i,item){
 
                 html += '<tr>';
-                html += '<td>'+item['id']+'</td>';
+                html += '<td>'+item['aid']+'</td>';
                 html += '<td>'+item['title']+'</td>';
                 html += '<td>'+item['author']+'</td>';
-                html += '<td>'+item['time']+'</td>';
+                html += '<td>'+item['pubdate']+'</td>';
                 html += '<td><a href="edit_article.php?id='+item['id']+'">编辑</a> | <a href="add_banner.php?type=0&id='+item['id']+'&title='+item['title']+'&path='+item['imgurl']+'">推荐到banner</a>  |<a href="del.php?type=0&id='+item['id']+'">删除</a></td>';
                 html += '</tr>';
 
