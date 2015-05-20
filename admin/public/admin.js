@@ -7,7 +7,7 @@ $(document).ready(function(){
 						$(this).val('');	
 					}
 				$(this).css({backgroundPosition:'-8px -168px'})	
-			})		
+			})
 			
 	$('.input_text').blur(function(){
 				if($(this).val()=='')
@@ -15,8 +15,7 @@ $(document).ready(function(){
 						$(this).val($(this).attr('title'));	
 					}
 				$(this).css({backgroundPosition:'-8px -13px'})	
-			})						   
-		var left,top	
+			});
 	
 	$('#admin_pwdpro').focus(function(){
 								   
@@ -32,11 +31,8 @@ $(document).ready(function(){
 			if($('#admin_name').val()=='用户名'){
 				
 				alert("请输入用户名");
-<<<<<<< HEAD
 			}else if($('#admin_pwd').val()== ''){
-=======
-			}else if($('#admin_pwd').val()== '管理员密码'){
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 				
 				alert("请输入密码");
 				
@@ -44,13 +40,7 @@ $(document).ready(function(){
 			
 				$('#login_panel').submit();
 			}
-			
-				
-		
-<<<<<<< HEAD
 			});
-=======
-			})				   
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 						   
 });

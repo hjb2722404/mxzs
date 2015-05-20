@@ -36,80 +36,45 @@
 	
 		case 0 :
 			
-<<<<<<< HEAD
 			$tabname="mx_article";
-=======
-			$tabname="app_index";
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 			break;
 			
 		case 1 :
 			
-<<<<<<< HEAD
+
 			$tabname="mx_picture";
-=======
-			$tabname="app_banner";
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 			break;
 		
 		case 2 :
 		
-<<<<<<< HEAD
+
 			$tabname="mx_contact";
-=======
-			$tabname="app_business";
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 			break;
 			
 		case 3 :
 		
-<<<<<<< HEAD
+
 			$tabname="mx_user";
-=======
-			$tabname="app_goods";
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 			break;
 			
 		case 4 :
 		
-<<<<<<< HEAD
+
 			$tabname="mx_banner";
-=======
-			$tabname="app_activity";
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
+
 			break;
 			
 		case 5 :
 		
-<<<<<<< HEAD
+
 			$tabname="mx_indexpic";
 			break;
 
-=======
-			$tabname="app_house";
-			break;
-			
-		case 6 :
-		
-			$tabname="app_award";
-			break;
-			
-		case 7 :
-		
-			$tabname="app_coupan";
-			break;
-			
-		case 8 :
-		
-			$tabname="app_finds";
-			break;
-			
-		case 9 :
-		
-			$tabname="app_user";
-			break;
->>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
-	
+
 	}
 		
 	return $tabname;
