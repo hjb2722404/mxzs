@@ -243,28 +243,10 @@
     <script src="../public/js/jquery.js"></script>
     <script src="../public/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../public/js/responsive-nav.min.js"></script>
+    <script type="text/javascript" src="../public/js/common.js"></script>
     <script>
         var navigation = responsiveNav(".nav-collapse");
     </script>
-    <script>
-        $(function(){
-            var oLinks = document.getElementById("tabs").getElementsByTagName("a");
-            var oCons = document.getElementById("tabCons").getElementsByTagName("section");
-            for(var i = 0; i<oLinks.length; i++){
-                oLinks[i].index = i;
-                oLinks[i].onclick = function () {
-                    for(var j =0; j<oLinks.length; j++){
-                        oLinks[j].className="";
-                        oCons[j].style.display = "none";
-                    }
-                    this.className="cur";
-                    oCons[this.index].style.display ="block";
-                }
 
-            }
-
-
-        });
-    </script>
 </body>
 </html>

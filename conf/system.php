@@ -15,7 +15,7 @@
 	
 	$app_db_pass = "123456";
 	
-	$app_db_dbname = "bdm121435502";
+	$app_db_dbname = "bdm121435502_db";
 
     $app_db_prefix = "mx_";
 	
@@ -25,7 +25,7 @@
 
 
 	$webname = "明星装饰服务端";
-	$weburl = "http://app.gsnewcity.cn/";
+	$weburl = "http://127.0.0.1/mxzs/";
 	
 	
 //**************************************************//

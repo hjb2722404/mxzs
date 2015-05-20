@@ -36,53 +36,34 @@
 	
 		case 0 :
 			
-			$tabname="app_index";
+			$tabname="mx_article";
 			break;
 			
 		case 1 :
 			
-			$tabname="app_banner";
+			$tabname="mx_picture";
 			break;
 		
 		case 2 :
 		
-			$tabname="app_business";
+			$tabname="mx_contact";
 			break;
 			
 		case 3 :
 		
-			$tabname="app_goods";
+			$tabname="mx_user";
 			break;
 			
 		case 4 :
 		
-			$tabname="app_activity";
+			$tabname="mx_banner";
 			break;
 			
 		case 5 :
 		
-			$tabname="app_house";
+			$tabname="mx_indexpic";
 			break;
-			
-		case 6 :
-		
-			$tabname="app_award";
-			break;
-			
-		case 7 :
-		
-			$tabname="app_coupan";
-			break;
-			
-		case 8 :
-		
-			$tabname="app_finds";
-			break;
-			
-		case 9 :
-		
-			$tabname="app_user";
-			break;
+
 	
 	}
 		

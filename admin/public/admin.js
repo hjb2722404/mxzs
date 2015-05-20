@@ -32,7 +32,7 @@ $(document).ready(function(){
 			if($('#admin_name').val()=='用户名'){
 				
 				alert("请输入用户名");
-			}else if($('#admin_pwd').val()== '管理员密码'){
+			}else if($('#admin_pwd').val()== ''){
 				
 				alert("请输入密码");
 				
@@ -43,6 +43,6 @@ $(document).ready(function(){
 			
 				
 		
-			})				   
+			});
 						   
 });

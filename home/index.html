@@ -90,23 +90,23 @@
                                     <div class="tabCons" id="tabCons">
                                         <section style="display: block" class="regForm">
                                             <h6>10秒注册，免费获取3份专业的设计方案</h6>
-                                            <form action="">
-                                                <input type="text" name="regName" class="form-control" placeholder="用户名"/>
-                                                <input type="text" name="regPwd" class="form-control" placeholder="密码"/>
-                                                <input type="text" name="regPhone" class="form-control" placeholder="联系电话"/>
-                                                <input type="submit" class="form-control btn btn-warning" value="提交"/>
+                                            <form action="../admin/userreg.php" method="post">
+                                                <input type="text" name="regName" id="regName" class="form-control" placeholder="用户名"/><span id="unametip" style="color:red; display:none; margin-left: 15px; margin-bottom: 15px;"></span>
+                                                <input type="password" name="regPwd" id="regPwd" class="form-control" placeholder="密码"/>
+                                                <input type="text" name="regPhone" id="regPhone" class="form-control" placeholder="联系电话"/>
+                                                <input type="submit" class="form-control btn btn-warning" id="regbtn" value="提交"/>
                                             </form>
                                             <h6>我们拥有专业的家装设计团队</h6>
                                             <h6>我们追求：价格更低，品质更高</h6>
                                         </section>
                                         <section style="display: none" class="loginForm">
-                                            <form action="">
-                                                <input type="text" name="regName" class="form-control" placeholder="用户名"/>
+                                            <form action="../admin/userlogin.php" method="post">
+                                                <input type="text" name="username" id="loginName" class="form-control" placeholder="用户名"/>
                                                 <h6>请输入不少于4个字符的用户名</h6>
-                                                <input type="text" name="regPwd" class="form-control" placeholder="密码"/>
+                                                <input type="password" name="userpwd" id="loginPwd" class="form-control" placeholder="密码"/>
                                                 <h6>请输入不少于6个字符的密码</h6>
-                                                <input type="submit" class="form-control btn btn-warning" value="提交"/>
-                                                <a href="">忘记密码？</a>
+                                                <input type="submit" class="form-control btn btn-warning" id="loginbtn" value="提交" style="margin-bottom: 20px;"/>
+                                                <a href="" >忘记密码？</a>
                                             </form>
                                         </section>
                                     </div>
@@ -280,28 +280,10 @@
     <script src="../public/js/jquery.js"></script>
     <script src="../public/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../public/js/responsive-nav.min.js"></script>
+    <script type="text/javascript" src="../public/js/common.js"></script>
+    <script type="text/javascript" src="../public/js/index.js"></script>
     <script>
         var navigation = responsiveNav(".nav-collapse");
-    </script>
-    <script>
-        $(function(){
-            var oLinks = document.getElementById("tabs").getElementsByTagName("a");
-            var oCons = document.getElementById("tabCons").getElementsByTagName("section");
-            for(var i = 0; i<oLinks.length; i++){
-                oLinks[i].index = i;
-                oLinks[i].onclick = function () {
-                    for(var j =0; j<oLinks.length; j++){
-                        oLinks[j].className="";
-                        oCons[j].style.display = "none";
-                    }
-                    this.className="cur";
-                    oCons[this.index].style.display ="block";
-                }
-
-            }
-
-
-        });
     </script>
 </body>
 </html>
