@@ -11,7 +11,27 @@
 	$(document).ready(function(){
 		$(function(){					   
 		$.post("getlist.php",{"type":"0"},function(data){
-            var htmlcon="";
+            var html='<table width="100%" border="0" cellspacing="0" cellpadding="0">';
+            html += '<tr>';
+            html += '<td>文章ID</td>';
+            html += '<td>文章标题</td>';
+            html += '<td>文章作者</td>';
+            html += '<td>发布时间</td>';
+            html += '<td>操作</td>';
+            html += '</tr>';
+            $.each(data,function(i,item){
+
+                html += '<tr>';
+                html += '<td>'+item['id']+'</td>';
+                html += '<td>'+item['title']+'</td>';
+                html += '<td>'+item['author']+'</td>';
+                html += '<td>'+item['time']+'</td>';
+                html += '<td><a href="edit_article.php?id='+item['id']+'">编辑</a> | <a href="add_banner.php?type=0&id='+item['id']+'&title='+item['title']+'&path='+item['imgurl']+'">推荐到banner</a>  |<a href="del.php?type=0&id='+item['id']+'">删除</a></td>';
+                html += '</tr>';
+
+            });
+            html += '</table>';
+            $("#content").append(html);
 		},"json");
 		});						
 	});
