@@ -5,7 +5,6 @@
 <title>首页图文管理</title>
 <link href="public/admin.css" rel="stylesheet" type="text/css" />
     <link href="../public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
 <script src="public/jquery.js" language="javascript" type="text/javascript"></script>
 <script>
 	
@@ -13,7 +12,6 @@
 		$(function(){					   
 		$.post("getlist.php",{"type":"0"},function(data){
             var htmlcon="";
-
 		},"json");
 		});						
 	});
@@ -23,6 +21,7 @@
 
 <body>
     <a href="add_article.html"><button>添加文档</button></a>
+
 	<div id="content">
 
     </div>

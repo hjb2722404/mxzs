@@ -11,6 +11,7 @@ include("../conf/system.php");
 include("../conf/mysql_class.php");
 include("../conf/server_class.php");
 $uname = $_POST['uname'];
+
 if($uname != ""){
 
     $select = $db->select("mx_user","where username = '$uname'");
@@ -22,6 +23,7 @@ if($uname != ""){
     }
     else{
         echo "no";
+
     }
 
 

@@ -9,11 +9,19 @@
 //*	         数据库链接配置                         *//
 //*************************************************//
 	
+<<<<<<< HEAD
 	$app_db_host = "localhost";
 	
 	$app_db_root = "root";
 	
 	$app_db_pass = "123456";
+=======
+	$app_db_host = "bdm121435502.my3w.com";
+	
+	$app_db_root = "bdm121435502";
+	
+	$app_db_pass = "elementSQL";
+>>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
 	
 	$app_db_dbname = "bdm121435502_db";
 
@@ -25,7 +33,11 @@
 
 
 	$webname = "明星装饰服务端";
+<<<<<<< HEAD
 	$weburl = "http://127.0.0.1/mxzs/";
+=======
+	$weburl = "http://www.mszsgc.cn/mxzs/";
+>>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
 	
 	
 //**************************************************//

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 .userMg { border: 1px solid #cccccc; height:327px;  }
 .userMg h6{ font-size: 11px;}
 .banner img { width: 100%; height: 327px;}
+=======
+.userMg { border: 1px solid #cccccc; height:307px;  }
+.userMg h6{ font-size: 11px;}
+.banner img { width: 100%; height: 307px;}
+>>>>>>> 7e07896a4fc3d85d2b4bc3edb372a29d6a63d04c
 .tabs{ width: 100%; margin-top: 5px;}
 .tabs ul { width: 100%; list-style-type: none;}
 .tabs ul li { width: 48%; display: inline-block; margin: 0; padding: 0;}

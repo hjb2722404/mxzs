@@ -57,6 +57,7 @@ $(function(){
             url: "../admin/checkuname.php", //把数据提交到ok.php
             data: "uname="+regname, //输入框writer中的值作为提交的数据
             success: function(msg){ //提交成功后的回调，msg变量是ok.php输出的内容。
+
                 var msgtext=msg;
                 if(msgtext =="no"){
                     $("#unametip").html("恭喜，该用户名可以注册");
